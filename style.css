@@ -1,0 +1,37 @@
+.container{
+    background-color: #ffff9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width:70vb;
+    flex-direction: column;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    transform: rotate(45deg);
+    margin-bottom: 5rem;
+}
+
+.box-1{
+    height: 50px;
+    width: 50px;
+    background-color: #0aa30a;
+}
+
+.box-2{
+    height: 50px;
+    width: 50px;
+    background-color: #74bc23;
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
